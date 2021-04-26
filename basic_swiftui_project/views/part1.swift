@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  part1.swift
 //  basic_swiftui_project
 //
 //  Created by Bailey Rotellini on 4/26/21.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct part1: View {
     var body: some View {
-       navigation()
+        Text("Part 1")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct part1_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        part1()
     }
 }
