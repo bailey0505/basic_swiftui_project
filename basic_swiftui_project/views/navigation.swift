@@ -25,7 +25,6 @@ struct navigation: View {
         }
     }
 }
-
 struct navigation_Previews: PreviewProvider {
     static var previews: some View {
         navigation()
